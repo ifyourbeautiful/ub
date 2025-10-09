@@ -70,6 +70,6 @@ EXPOSE 22 5900 8006
 ENV BOOT="kali"
 ENV CPU_CORES="4"
 ENV RAM_SIZE="8G"
-ENV DISK_SIZE="2000G"
+ENV DISK_SIZE="10000G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
