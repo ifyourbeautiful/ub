@@ -68,8 +68,8 @@ VOLUME /storage
 EXPOSE 22 5900 8006
 
 ENV BOOT="kali"
-ENV CPU_CORES="4"
+ENV CPU_CORES="16"
 ENV RAM_SIZE="8G"
-ENV DISK_SIZE="10000G"
+ENV DISK_SIZE="600G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
