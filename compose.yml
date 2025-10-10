@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "kali"
+      BOOT: "arch"
       DISK_SIZE: "600G"
       RAM_SIZE: "8G"
       CPU_CORES: "16"
