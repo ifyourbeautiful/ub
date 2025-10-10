@@ -6,7 +6,7 @@ services:
       BOOT: "arch"
       DISK_SIZE: "600G"
       RAM_SIZE: "8G"
-      CPU_CORES: "32"
+      CPU_CORES: "16"
     devices:
       - /dev/kvm
       - /dev/net/tun
