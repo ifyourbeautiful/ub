@@ -67,9 +67,9 @@ ADD --chmod=755 "https://github.com/qemus/fiano/releases/download/v1.2.0/utk_1.2
 VOLUME /storage
 EXPOSE 22 5900 8006
 
-ENV BOOT="kali"
-ENV CPU_CORES="16"
-ENV RAM_SIZE="8G"
+ENV BOOT="arch"
+ENV CPU_CORES="32"
+ENV RAM_SIZE="16G"
 ENV DISK_SIZE="600G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
