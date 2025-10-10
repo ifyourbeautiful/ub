@@ -8,7 +8,7 @@ spec:
   - ReadWriteOnce
   resources:
     requests:
-      storage: 10000Gi
+      storage: 600Gi
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -33,7 +33,7 @@ spec:
         - name: BOOT
           value: "kali"
         - name: DISK_SIZE
-          value: "10000G"
+          value: "600G"
         ports:
           - containerPort: 8006
             name: http
