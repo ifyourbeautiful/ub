@@ -70,6 +70,6 @@ EXPOSE 22 5900 8006
 ENV BOOT="arch"
 ENV CPU_CORES="16"
 ENV RAM_SIZE="8G"
-ENV DISK_SIZE="600G"
+ENV DISK_SIZE="1024G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
