@@ -4,7 +4,7 @@ services:
     container_name: qemu
     environment:
       BOOT: "arch"
-      DISK_SIZE: "600G"
+      DISK_SIZE: "1024G"
       RAM_SIZE: "8G"
       CPU_CORES: "16"
     devices:
