@@ -8,7 +8,7 @@ spec:
   - ReadWriteOnce
   resources:
     requests:
-      storage: 1024Gi
+      storage: 300Gi
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -33,7 +33,7 @@ spec:
         - name: BOOT
           value: "arch"
         - name: DISK_SIZE
-          value: "1024G"
+          value: "300G"
         ports:
           - containerPort: 8006
             name: http
