@@ -4,9 +4,9 @@ services:
     container_name: qemu
     environment:
       BOOT: "arch"
-      DISK_SIZE: "1024G"
+      DISK_SIZE: "300G"
       RAM_SIZE: "8G"
-      CPU_CORES: "16"
+      CPU_CORES: "4"
     devices:
       - /dev/kvm
       - /dev/net/tun
