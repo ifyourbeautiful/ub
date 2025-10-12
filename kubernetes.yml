@@ -33,7 +33,7 @@ spec:
         - name: BOOT
           value: "arch"
         - name: DISK_SIZE
-          value: "300G"
+          value: "30G"
         ports:
           - containerPort: 8006
             name: http
