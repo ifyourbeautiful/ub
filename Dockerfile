@@ -67,7 +67,7 @@ ADD --chmod=755 "https://github.com/qemus/fiano/releases/download/v1.2.0/utk_1.2
 VOLUME /storage
 EXPOSE 22 5900 8006
 
-ENV BOOT="nixos"
+ENV BOOT="fedora"
 ENV CPU_CORES="4"
 ENV RAM_SIZE="8G"
 ENV DISK_SIZE="30G"
