@@ -31,7 +31,7 @@ spec:
         image: qemux/qemu
         env:
         - name: BOOT
-          value: "nixos"
+          value: "fedora"
         - name: DISK_SIZE
           value: "30G"
         ports:
