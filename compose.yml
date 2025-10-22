@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "nixos"
+      BOOT: "fedora"
       DISK_SIZE: "30G"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
